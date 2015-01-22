@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAB5DA1B1A70F43700F93AF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB5DA1A1A70F43700F93AF1 /* main.m */; };
+		FAB5DA1E1A70F43700F93AF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB5DA1D1A70F43700F93AF1 /* AppDelegate.m */; };
+		FAB5DA211A70F43700F93AF1 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB5DA201A70F43700F93AF1 /* GameScene.m */; };
+		FAB5DA231A70F43700F93AF1 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FAB5DA221A70F43700F93AF1 /* GameScene.sks */; };
+		FAB5DA261A70F43700F93AF1 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB5DA251A70F43700F93AF1 /* GameViewController.m */; };
+		FAB5DA291A70F43700F93AF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB5DA271A70F43700F93AF1 /* Main.storyboard */; };
+		FAB5DA2B1A70F43700F93AF1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB5DA2A1A70F43700F93AF1 /* Images.xcassets */; };
+		FAB5DA2E1A70F43700F93AF1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB5DA2C1A70F43700F93AF1 /* LaunchScreen.xib */; };
+		FAB5DA3A1A70F43800F93AF1 /* pixelBloodSplatterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB5DA391A70F43800F93AF1 /* pixelBloodSplatterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAB5DA341A70F43800F93AF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAB5DA0D1A70F43700F93AF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAB5DA141A70F43700F93AF1;
+			remoteInfo = pixelBloodSplatter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAB5DA151A70F43700F93AF1 /* pixelBloodSplatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pixelBloodSplatter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB5DA191A70F43700F93AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB5DA1A1A70F43700F93AF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAB5DA1C1A70F43700F93AF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAB5DA1D1A70F43700F93AF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAB5DA1F1A70F43700F93AF1 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		FAB5DA201A70F43700F93AF1 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		FAB5DA221A70F43700F93AF1 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		FAB5DA241A70F43700F93AF1 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		FAB5DA251A70F43700F93AF1 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		FAB5DA281A70F43700F93AF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAB5DA2A1A70F43700F93AF1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAB5DA2D1A70F43700F93AF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FAB5DA331A70F43800F93AF1 /* pixelBloodSplatterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pixelBloodSplatterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB5DA381A70F43800F93AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB5DA391A70F43800F93AF1 /* pixelBloodSplatterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pixelBloodSplatterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAB5DA121A70F43700F93AF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB5DA301A70F43800F93AF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAB5DA0C1A70F43700F93AF1 = {
+			isa = PBXGroup;
+			children = (
+				FAB5DA171A70F43700F93AF1 /* pixelBloodSplatter */,
+				FAB5DA361A70F43800F93AF1 /* pixelBloodSplatterTests */,
+				FAB5DA161A70F43700F93AF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAB5DA161A70F43700F93AF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAB5DA151A70F43700F93AF1 /* pixelBloodSplatter.app */,
+				FAB5DA331A70F43800F93AF1 /* pixelBloodSplatterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAB5DA171A70F43700F93AF1 /* pixelBloodSplatter */ = {
+			isa = PBXGroup;
+			children = (
+				FAB5DA1C1A70F43700F93AF1 /* AppDelegate.h */,
+				FAB5DA1D1A70F43700F93AF1 /* AppDelegate.m */,
+				FAB5DA1F1A70F43700F93AF1 /* GameScene.h */,
+				FAB5DA201A70F43700F93AF1 /* GameScene.m */,
+				FAB5DA221A70F43700F93AF1 /* GameScene.sks */,
+				FAB5DA241A70F43700F93AF1 /* GameViewController.h */,
+				FAB5DA251A70F43700F93AF1 /* GameViewController.m */,
+				FAB5DA271A70F43700F93AF1 /* Main.storyboard */,
+				FAB5DA2A1A70F43700F93AF1 /* Images.xcassets */,
+				FAB5DA2C1A70F43700F93AF1 /* LaunchScreen.xib */,
+				FAB5DA181A70F43700F93AF1 /* Supporting Files */,
+			);
+			path = pixelBloodSplatter;
+			sourceTree = "<group>";
+		};
+		FAB5DA181A70F43700F93AF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAB5DA191A70F43700F93AF1 /* Info.plist */,
+				FAB5DA1A1A70F43700F93AF1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAB5DA361A70F43800F93AF1 /* pixelBloodSplatterTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAB5DA391A70F43800F93AF1 /* pixelBloodSplatterTests.m */,
+				FAB5DA371A70F43800F93AF1 /* Supporting Files */,
+			);
+			path = pixelBloodSplatterTests;
+			sourceTree = "<group>";
+		};
+		FAB5DA371A70F43800F93AF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAB5DA381A70F43800F93AF1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAB5DA141A70F43700F93AF1 /* pixelBloodSplatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB5DA3D1A70F43800F93AF1 /* Build configuration list for PBXNativeTarget "pixelBloodSplatter" */;
+			buildPhases = (
+				FAB5DA111A70F43700F93AF1 /* Sources */,
+				FAB5DA121A70F43700F93AF1 /* Frameworks */,
+				FAB5DA131A70F43700F93AF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pixelBloodSplatter;
+			productName = pixelBloodSplatter;
+			productReference = FAB5DA151A70F43700F93AF1 /* pixelBloodSplatter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAB5DA321A70F43800F93AF1 /* pixelBloodSplatterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB5DA401A70F43800F93AF1 /* Build configuration list for PBXNativeTarget "pixelBloodSplatterTests" */;
+			buildPhases = (
+				FAB5DA2F1A70F43800F93AF1 /* Sources */,
+				FAB5DA301A70F43800F93AF1 /* Frameworks */,
+				FAB5DA311A70F43800F93AF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAB5DA351A70F43800F93AF1 /* PBXTargetDependency */,
+			);
+			name = pixelBloodSplatterTests;
+			productName = pixelBloodSplatterTests;
+			productReference = FAB5DA331A70F43800F93AF1 /* pixelBloodSplatterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAB5DA0D1A70F43700F93AF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Amadeusz Polak";
+				TargetAttributes = {
+					FAB5DA141A70F43700F93AF1 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					FAB5DA321A70F43800F93AF1 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = FAB5DA141A70F43700F93AF1;
+					};
+				};
+			};
+			buildConfigurationList = FAB5DA101A70F43700F93AF1 /* Build configuration list for PBXProject "pixelBloodSplatter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAB5DA0C1A70F43700F93AF1;
+			productRefGroup = FAB5DA161A70F43700F93AF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAB5DA141A70F43700F93AF1 /* pixelBloodSplatter */,
+				FAB5DA321A70F43800F93AF1 /* pixelBloodSplatterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAB5DA131A70F43700F93AF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB5DA2E1A70F43700F93AF1 /* LaunchScreen.xib in Resources */,
+				FAB5DA2B1A70F43700F93AF1 /* Images.xcassets in Resources */,
+				FAB5DA231A70F43700F93AF1 /* GameScene.sks in Resources */,
+				FAB5DA291A70F43700F93AF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB5DA311A70F43800F93AF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAB5DA111A70F43700F93AF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB5DA261A70F43700F93AF1 /* GameViewController.m in Sources */,
+				FAB5DA1E1A70F43700F93AF1 /* AppDelegate.m in Sources */,
+				FAB5DA211A70F43700F93AF1 /* GameScene.m in Sources */,
+				FAB5DA1B1A70F43700F93AF1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB5DA2F1A70F43800F93AF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB5DA3A1A70F43800F93AF1 /* pixelBloodSplatterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAB5DA351A70F43800F93AF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAB5DA141A70F43700F93AF1 /* pixelBloodSplatter */;
+			targetProxy = FAB5DA341A70F43800F93AF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAB5DA271A70F43700F93AF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB5DA281A70F43700F93AF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAB5DA2C1A70F43700F93AF1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB5DA2D1A70F43700F93AF1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAB5DA3B1A70F43800F93AF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAB5DA3C1A70F43800F93AF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAB5DA3E1A70F43800F93AF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pixelBloodSplatter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAB5DA3F1A70F43800F93AF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pixelBloodSplatter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAB5DA411A70F43800F93AF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = pixelBloodSplatterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pixelBloodSplatter.app/pixelBloodSplatter";
+			};
+			name = Debug;
+		};
+		FAB5DA421A70F43800F93AF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = pixelBloodSplatterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pixelBloodSplatter.app/pixelBloodSplatter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAB5DA101A70F43700F93AF1 /* Build configuration list for PBXProject "pixelBloodSplatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB5DA3B1A70F43800F93AF1 /* Debug */,
+				FAB5DA3C1A70F43800F93AF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB5DA3D1A70F43800F93AF1 /* Build configuration list for PBXNativeTarget "pixelBloodSplatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB5DA3E1A70F43800F93AF1 /* Debug */,
+				FAB5DA3F1A70F43800F93AF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAB5DA401A70F43800F93AF1 /* Build configuration list for PBXNativeTarget "pixelBloodSplatterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB5DA411A70F43800F93AF1 /* Debug */,
+				FAB5DA421A70F43800F93AF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAB5DA0D1A70F43700F93AF1 /* Project object */;
+}
