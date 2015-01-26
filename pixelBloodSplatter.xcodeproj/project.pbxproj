@@ -16,6 +16,10 @@
 		FAB5DA2B1A70F43700F93AF1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB5DA2A1A70F43700F93AF1 /* Images.xcassets */; };
 		FAB5DA2E1A70F43700F93AF1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB5DA2C1A70F43700F93AF1 /* LaunchScreen.xib */; };
 		FAB5DA3A1A70F43800F93AF1 /* pixelBloodSplatterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB5DA391A70F43800F93AF1 /* pixelBloodSplatterTests.m */; };
+		FAB5DA451A70FB6B00F93AF1 /* Blood.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB5DA441A70FB6B00F93AF1 /* Blood.m */; };
+		FAB5DA481A710AF300F93AF1 /* SharedTextureCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB5DA471A710AF300F93AF1 /* SharedTextureCache.m */; };
+		FAB5DA4A1A713F1800F93AF1 /* spritesAll.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FAB5DA491A713F1800F93AF1 /* spritesAll.atlas */; };
+		FAB5DA501A75432900F93AF1 /* BloodController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB5DA4F1A75432900F93AF1 /* BloodController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,13 @@
 		FAB5DA331A70F43800F93AF1 /* pixelBloodSplatterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pixelBloodSplatterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB5DA381A70F43800F93AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAB5DA391A70F43800F93AF1 /* pixelBloodSplatterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pixelBloodSplatterTests.m; sourceTree = "<group>"; };
+		FAB5DA431A70FB6B00F93AF1 /* Blood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Blood.h; sourceTree = "<group>"; };
+		FAB5DA441A70FB6B00F93AF1 /* Blood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Blood.m; sourceTree = "<group>"; };
+		FAB5DA461A710AF300F93AF1 /* SharedTextureCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedTextureCache.h; sourceTree = "<group>"; };
+		FAB5DA471A710AF300F93AF1 /* SharedTextureCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedTextureCache.m; sourceTree = "<group>"; };
+		FAB5DA491A713F1800F93AF1 /* spritesAll.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = spritesAll.atlas; sourceTree = "<group>"; };
+		FAB5DA4E1A75432900F93AF1 /* BloodController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodController.h; sourceTree = "<group>"; };
+		FAB5DA4F1A75432900F93AF1 /* BloodController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,10 +102,17 @@
 				FAB5DA1F1A70F43700F93AF1 /* GameScene.h */,
 				FAB5DA201A70F43700F93AF1 /* GameScene.m */,
 				FAB5DA221A70F43700F93AF1 /* GameScene.sks */,
+				FAB5DA4E1A75432900F93AF1 /* BloodController.h */,
+				FAB5DA4F1A75432900F93AF1 /* BloodController.m */,
+				FAB5DA431A70FB6B00F93AF1 /* Blood.h */,
+				FAB5DA441A70FB6B00F93AF1 /* Blood.m */,
+				FAB5DA461A710AF300F93AF1 /* SharedTextureCache.h */,
+				FAB5DA471A710AF300F93AF1 /* SharedTextureCache.m */,
 				FAB5DA241A70F43700F93AF1 /* GameViewController.h */,
 				FAB5DA251A70F43700F93AF1 /* GameViewController.m */,
 				FAB5DA271A70F43700F93AF1 /* Main.storyboard */,
 				FAB5DA2A1A70F43700F93AF1 /* Images.xcassets */,
+				FAB5DA491A713F1800F93AF1 /* spritesAll.atlas */,
 				FAB5DA2C1A70F43700F93AF1 /* LaunchScreen.xib */,
 				FAB5DA181A70F43700F93AF1 /* Supporting Files */,
 			);
@@ -211,6 +229,7 @@
 				FAB5DA2B1A70F43700F93AF1 /* Images.xcassets in Resources */,
 				FAB5DA231A70F43700F93AF1 /* GameScene.sks in Resources */,
 				FAB5DA291A70F43700F93AF1 /* Main.storyboard in Resources */,
+				FAB5DA4A1A713F1800F93AF1 /* spritesAll.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,7 +247,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB5DA451A70FB6B00F93AF1 /* Blood.m in Sources */,
 				FAB5DA261A70F43700F93AF1 /* GameViewController.m in Sources */,
+				FAB5DA501A75432900F93AF1 /* BloodController.m in Sources */,
+				FAB5DA481A710AF300F93AF1 /* SharedTextureCache.m in Sources */,
 				FAB5DA1E1A70F43700F93AF1 /* AppDelegate.m in Sources */,
 				FAB5DA211A70F43700F93AF1 /* GameScene.m in Sources */,
 				FAB5DA1B1A70F43700F93AF1 /* main.m in Sources */,
@@ -356,6 +378,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = pixelBloodSplatter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -366,6 +389,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = pixelBloodSplatter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

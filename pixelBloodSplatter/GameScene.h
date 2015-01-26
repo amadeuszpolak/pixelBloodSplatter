@@ -6,8 +6,10 @@
 //  Copyright (c) 2015 Amadeusz Polak. All rights reserved.
 //
 
-#import <SpriteKit/SpriteKit.h>
+@import SpriteKit;
 
 @interface GameScene : SKScene
+
+@property (nonatomic, strong) NSMutableArray *bloodStamps;
 
 @end
